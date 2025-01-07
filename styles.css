@@ -125,9 +125,9 @@ h1 {
 }
 
 body.work-mode {
-    background-image: url('../Images/typing.gif');
+    background-image: url('./Images/typing.gif');
 }
 
 body.rest-mode {
-    background-image: url('../Images/wave.gif');
+    background-image: url('./Images/wave.gif');
 } 
