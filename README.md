@@ -12,4 +12,4 @@ A simple Pomodoro timer built with HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-Visit the live application at: https://[your-github-username].github.io/[repository-name]/
+Visit the live application at: https://[SimonChamorroQ].github.io/[BYOA-Pomodoro]/
