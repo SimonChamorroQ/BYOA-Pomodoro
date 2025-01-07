@@ -112,14 +112,6 @@ h1 {
     gap: 1rem;
 }
 
-.work-background {
-    background-image: url('./images/typing.gif');
-}
-
-.rest-background {
-    background-image: url('./images/wave.gif');
-}
-
 .controls-wrapper {
     padding: 0 1rem;
 }
