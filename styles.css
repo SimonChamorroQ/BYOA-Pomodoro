@@ -1,0 +1,133 @@
+/* Modern color palette */
+:root {
+  --primary: #9B59B6;      /* Purple instead of coral red */
+  --secondary: #4ECDC4;    /* Keeping the teal color */
+  --background: #f8f9fa;   /* Light gray background */
+  --surface: #ffffff;      /* White surface color */
+  --text: #2D3436;        /* Dark gray text */
+  --text-secondary: #636E72; /* Secondary text color */
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--background);
+    color: var(--text);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 3rem;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    width: 90%;
+    max-width: 400px;
+}
+
+.timer {
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    color: #FF6B6B;
+    font-variant-numeric: tabular-nums;
+}
+
+.controls button {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0.5rem;
+    padding: 0.75rem 1.75rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+}
+
+.toggle-mode-button {
+    width: calc((1.30rem * 4) + 1rem + 8rem);
+    margin: 0 auto 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem 1.75rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.toggle-mode-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(78, 205, 196, 0.2);
+}
+
+.controls button#start {
+    background-color: #FF6B6B;
+    color: white;
+}
+
+.controls button#reset {
+    background-color: #E8E8E8;
+    color: var(--text);
+}
+
+.controls button:hover {
+    transform: translateY(-2px);
+}
+
+.controls button#start:hover {
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
+}
+
+.controls button#reset:hover {
+    background-color: #DADADA;
+}
+
+h1 {
+    color: var(--text);
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.mode {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.work-background {
+    background-image: url('./images/typing.gif');
+}
+
+.rest-background {
+    background-image: url('./images/wave.gif');
+}
+
+.controls-wrapper {
+    padding: 0 1rem;
+}
+
+.toggle-mode-button.rest-mode {
+    background-color: #4ECDC4;  /* Keeping the teal color */
+}
+
+.toggle-mode-button.work-mode {
+    background-color: #9B59B6;  /* Purple color */
+} 
