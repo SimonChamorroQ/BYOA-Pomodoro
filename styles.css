@@ -133,9 +133,9 @@ h1 {
 }
 
 body.work-mode {
-    background-image: url('/BYOA-Pomodoro/images/typing.gif');  /* Replace 'pomodoro-timer' with your actual repository name */
+    background-image: url('/BYOA-Pomodoro/Images/typing.gif');  /* Replace 'pomodoro-timer' with your actual repository name */
 }
 
 body.rest-mode {
-    background-image: url('/BYOA-Pomodoro/images/wave.gif');  /* Replace 'pomodoro-timer' with your actual repository name */
+    background-image: url('/BYOA-Pomodoro/Images/wave.gif');  /* Replace 'pomodoro-timer' with your actual repository name */
 } 
