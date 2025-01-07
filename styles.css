@@ -130,4 +130,12 @@ h1 {
 
 .toggle-mode-button.work-mode {
     background-color: #9B59B6;  /* Purple color */
+}
+
+body.work-mode {
+    background-image: url('/BYOA-Pomodoro/images/typing.gif');  /* Replace 'pomodoro-timer' with your actual repository name */
+}
+
+body.rest-mode {
+    background-image: url('/BYOA-Pomodoro/images/wave.gif');  /* Replace 'pomodoro-timer' with your actual repository name */
 } 
