@@ -56,7 +56,7 @@ function resetTimer() {
     modeText.textContent = '🔥 Work Time 🔥';
     toggleButton.textContent = 'Go to Rest Mode';
     toggleButton.className = 'toggle-mode-button rest-mode';
-    document.body.className = 'work-background';
+    document.body.className = 'work-mode';
     updateDisplay(timeLeft);
     startButton.textContent = 'Start';
 }
@@ -69,7 +69,7 @@ function toggleMode() {
     modeText.textContent = isWorkTime ? '🔥 Work Time 🔥' : '🧘 Break Time 🧘';
     toggleButton.textContent = isWorkTime ? 'Go to Rest Mode' : 'Go to Work Mode';
     toggleButton.className = `toggle-mode-button ${isWorkTime ? 'rest-mode' : 'work-mode'}`;
-    document.body.className = isWorkTime ? 'work-background' : 'rest-background';
+    document.body.className = isWorkTime ? 'work-mode' : 'rest-mode';
     updateDisplay(timeLeft);
     startButton.textContent = 'Start';
 }
